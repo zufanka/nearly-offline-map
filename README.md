@@ -15,11 +15,15 @@ It is using the base map from mapbox (this can be changed).
 * icons base64 encoded
 
 ## Icons
-
-If you need different icons, they have to be put in the .html base64 encoded
+Icons have to be put in the .html base64 encoded
 
 The format is `data:image/png;base64, <string>` This is how you get the string on linux:
 
+```bash
+base64 iconname.png 
+```
+
+To copy it as well:
 ```bash
 base64 iconname.png | tr -d "\n" | xclip -selection c
 ```
