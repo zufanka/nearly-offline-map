@@ -2,6 +2,8 @@
 
 Based on: leaflet.js, mapbox
 
+You should be able to run this example out of the box after you put in your own Mapbox API key.
+
 Goal of this excercise is having an offline map in one html file, without having to run a (localhost) server. Developed for journalistst to be able to explore sensitive geospatial data without having to upload them anywhere in the cloud.
 
 All data is in one .html file, as you can not serve external files to javascript running CORS, only HTTP (browsers complain). You have to turn your icons into a base64 encoded string and paste your geojson in the file it's entirety.
