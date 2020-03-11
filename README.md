@@ -2,6 +2,8 @@
 
 Based on: leaflet.js, mapbox
 
+![map](https://i.imgur.com/XqqHB6V.png)
+
 You should be able to run this example **out of the box** after you put in your own Mapbox API key.
 
 An offline map in one html file, without having to run a (localhost) server. Developed to be able to explore sensitive geospatial data without having to upload them anywhere in the cloud.
