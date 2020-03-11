@@ -31,4 +31,4 @@ base64 iconname.png | tr -d "\n" | xclip -selection c
 
 ## Popups
 
-If you want the popups to have more information, you can add another property with some HTML in it.
+If you want the popups to have more information, you can add another property to the geojson with some HTML in it.
